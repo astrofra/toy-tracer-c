@@ -1,2 +1,3 @@
-# toy-tracer-c
-Toy Raytracer in C
+# Toy-Tracer-C
+
+Toy Raytracer in C.
