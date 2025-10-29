@@ -18,16 +18,16 @@ Le raytraceur ne pourrait rendre que les objets primitives de types suivants :
 - torus
 
 Seule la pointlight serait supportée, avec ou sans ombres portées (en raytrace)
-Pour chaque primitive déclarée dans la scene, on pourrait invoquer un struct qui serait un material, permettant de définir : couleur (albedo), roughness, metalness
+Pour chaque primitive déclarée dans la scene, on pourrait invoquer un struct qui serait un material, permettant de définir : couleur (albedo), roughness, metalness.
 Le "material" serait traité par une fonction en C qui serait une implémentation simple mais efficace du "principled PBR" de Blender par exemple
 On ne pourrais pas gérer les textures
 
 L'idée est de proposer à chaque étudiant de modifier, compiler, débugger, lancer son implementation de scene en "plaçant" ses objets en code dans scene.c
 
-L'image produite serait dumpée dans un format très simple, par exemple du TGA32
-On pourrait facilement compiler sur une machine Windows, avec un compilateur léger (MinGW ?) qui pourrait etre débuggé visuellement sous Visual Studio
-Sur Mac, ce serait le compilateur par défaut de la machine
-Sous Linux, pareil
+L'image produite serait dumpée dans un format très simple, par exemple du TGA32.
+On pourrait facilement compiler sur une machine Windows, avec un compilateur léger (MinGW ?) qui pourrait etre débuggé visuellement sous Visual Studio.
+Sur Mac, ce serait le compilateur par défaut de la machine.
+Sous Linux, pareil.
 
 Le code serait totalement portable, avec un minumum de spécificté à la machine. Le raytraceur n'afficherait aucune image, juste il cracherait des fichier TGA :)
 
