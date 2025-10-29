@@ -1,7 +1,6 @@
 # AGENTS.md  
 ## Educational Raytracer Project Specification  
 **Target audience:** Master 1 students discovering C programming  
-**Instructor:** François Gutherz  
 **Project type:** Minimal CPU-based Raytracer in C  
 
 ---
@@ -243,3 +242,4 @@ Each student must:
 ---
 
 **End of AGENTS.md**
+
